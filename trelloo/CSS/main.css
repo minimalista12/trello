@@ -1,0 +1,157 @@
+/*primero creamos la barra superior */
+nav {
+	display: inline-block;
+	background-color: #00799B;
+	width: 100.9%;
+	height: 55px;
+	margin-top: -7px;
+	margin-left: -8px;
+}
+
+/*con sus distintos botones y menus */
+
+#tableros {
+	line-height: 25px;
+	text-align: center;
+	width: 150px;
+	color: white;
+	font-size: 18px;
+	font-weight: 200;
+	font-family: helvetica;
+	display: inline-block;
+	height: 27px;
+	background-color: #53a5bc;
+}
+
+/* creamos boton de busqueda en la barra */
+input {
+  width: 190px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 1px solid #53a5bc;
+  border-radius: 3px; 
+  font-size: 15px;
+  background-color: #53a5bc;
+  background-position: 20px 10px; 
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.fa-search{
+	color: white;
+	font-size: 20px;
+	padding-bottom: 12px;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: -23px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+/* insertamos el logo del siotio*/
+#logotrello {
+	display: inline;
+}
+
+#logotrello img {
+	margin-top: 2px;
+	width: 175px;
+	height: 34px;
+}
+
+/*Tambien logos de redes sociales*/
+
+#icono1 {
+	color: #E0E2E4;
+	height: 55px;
+	width: 55px;
+	background-color: #53a5bc;
+	font-size: 30px;
+	display: inline;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+#icono2 {
+	position: relative;
+	color: #E0E2E4;
+	height: 55px;
+	width: 55px;
+	background-color: #53a5bc;
+	font-size: 30px;
+	display: inline;
+	text-align:center;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+#icono3 {
+	position: relative;
+	color: #E0E2E4;
+	height: 55px;
+	width: 55px;
+	background-color: #53a5bc;
+	font-size: 30px;
+	margin-right: 15px;
+	display: inline;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+/*y el icono de la foto del usuario*/
+#iconoperfil {
+	padding: 5px;
+	display: inline;
+}
+
+#iconoperfil img {
+	position: relative;
+	border-radius: 60px;
+	height: 35px;
+	width: 36px;
+}
+
+/* coniguramos el resto de la pagina*/
+body {
+	background-color: #8A9095;
+}
+
+/*ahora se agrega el tablero de bienvenida*/
+.bienvenida {
+	font-weight: bolder;
+	margin-top:1px;
+	margin-left: -9px;
+	background-color: #a8afb5;
+}
+
+.tablero {
+	display: inline;
+	color: white;
+}
+
+.tablero h1 {
+	display: inline;
+	margin-top: 13px;
+	margin-left: 12px;
+	background-color: #a8afb5;
+	font-size: 20px;
+	color: white;
+	font-family: helvetica;
+}
+
+/*inclyendo sus respectivos iconos*/
+#iconostar {
+	font-weight: bolder;
+	display: inline;
+}
+
+#iconoshop {
+	display:inline;
+}
+
+#privado {
+	font-family: helvetica;
+	display: inline;
+	font-weight: 200;
+}

@@ -155,3 +155,43 @@ body {
 	display: inline;
 	font-weight: 200;
 }
+
+ #tablero1{
+	font-family: helvetica;
+	line-height: 37px;
+	text-align: center;
+	border-radius: 5px;
+	height: 200px;
+	width: 380px;
+	margin-top: 50px;
+	color:white;
+	background-color: #A8AFB5;
+	cursor: pointer;
+}
+
+#tablero1 h1 {
+	font-weight: lighter;
+	font-size: 15px;
+	text-decoration:underline;
+}
+
+#tablero1 h3 {
+	margin-left: 20px;
+	line-height: 20px; 
+	text-align: left;
+}
+
+#tablero2{
+	font-family: helvetica;
+	line-height: 37px;
+	text-align: center;
+	border-radius: 5px;
+	height: 200px;
+	width: 380px;
+	margin-top: 50px;
+	color:white;
+	background-color: #A8AFB5;
+	cursor: pointer;
+}
+
+

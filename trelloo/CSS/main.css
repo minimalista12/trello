@@ -114,15 +114,19 @@ input {
 
 /* coniguramos el resto de la pagina*/
 body {
-	background-color: #8A9095;
+	background-color: #297395;
 }
 
 /*ahora se agrega el tablero de bienvenida*/
 .bienvenida {
-	font-weight: bolder;
+	font-weight: 600px;
 	margin-top:1px;
 	margin-left: -9px;
 	background-color: #a8afb5;
+}
+
+.tablerogeneral {
+	background-color: #297395;
 }
 
 .tablero {
@@ -156,42 +160,68 @@ body {
 	font-weight: 200;
 }
 
+/*Luego se configura el primer tablero */
  #tablero1{
+
 	font-family: helvetica;
 	line-height: 37px;
 	text-align: center;
 	border-radius: 5px;
-	height: 200px;
+	height: 290px;
 	width: 380px;
 	margin-top: 50px;
-	color:white;
-	background-color: #A8AFB5;
+	color:black;
+	background-color: #DEDBDE;
 	cursor: pointer;
 }
 
+/*texto dentro del tablero*/
 #tablero1 h1 {
-	font-weight: lighter;
-	font-size: 15px;
-	text-decoration:underline;
+	margin-bottom: -10px;
+	font-weight: 800px;
+	font-size: 18px;
+	display: inline;
+	height: 10px;
+	margin-top: -10px;
 }
 
 #tablero1 h3 {
+	margin-top: -1px;
+	background-color: #FEFEFE;
 	margin-left: 20px;
-	line-height: 20px; 
+	margin-right: 20px;
+	line-height: 29px; 
 	text-align: left;
+	font-weight: lighter;
 }
 
+#leermas {
+	text-decoration: underline;
+	text-align: right;
+	margin-right: 20px;
+}
+
+/*Y los respectivos iconos del tablero*/
+#iconosabajo {
+	text-align: right;
+	margin-right: 22px;
+	background-color: 
+}
+/* se configura el segundo tablero*/
+
 #tablero2{
+	margin-left: 400px;
 	font-family: helvetica;
 	line-height: 37px;
-	text-align: center;
-	border-radius: 5px;
 	height: 200px;
 	width: 380px;
-	margin-top: 50px;
-	color:white;
-	background-color: #A8AFB5;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: -200px;
+	color:black;
+	background-color: #DEDBDE;
 	cursor: pointer;
 }
+
 
 
